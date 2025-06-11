@@ -1,0 +1,35 @@
+baseURL = 'https://example.org/'
+defaultContentLanguage = 'en'
+title = 'Shin-academia (シン・アカデミア）'
+theme = 'PaperMod'
+
+[languages]
+  [languages.en]
+    languageName = 'English'
+    languageCode = 'en'
+    languageAltTitle = 'En'
+    weight = 1
+    title = 'Shin-academia'
+  [languages.ja]
+    languageName = '日本語'
+    languageCode = 'ja'
+    languageAltTitle = 'Ja'
+    weight = 2
+    title = 'シン・アカデミア'
+
+[params]
+  env = "production"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  ShowAllPagesInArchive = true
+  ShowPageNums = true
+  ShowLanguageSwitcher = true
+  defaultTheme = "auto"
+  math = true
+  displayFullLangName = false
