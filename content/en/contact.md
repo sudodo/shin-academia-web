@@ -1,6 +1,7 @@
 ---
 title: "Contact"
 description: "Contact Shin-academia"
+url: "/contact/"
 ---
 
 Get in touch with us:

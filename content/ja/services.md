@@ -1,6 +1,7 @@
 ---
 title: "サービス"
 description: "提供サービス"
+url: "/ja/services/"
 ---
 
 私たちは以下のサービスを提供しています：

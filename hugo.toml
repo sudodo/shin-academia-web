@@ -17,8 +17,71 @@ theme = 'PaperMod'
     weight = 2
     title = 'シン・アカデミア'
 
+[menu]
+  [[menu.main]]
+    identifier = "home-en"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/services/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "lab"
+    name = "Lab"
+    url = "/lab/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
+[languages.ja.menu]
+  [[languages.ja.menu.main]]
+    identifier = "home-ja"
+    name = "ホーム"
+    url = "/ja/"
+    weight = 1
+
+  [[languages.ja.menu.main]]
+    identifier = "about-ja"
+    name = "会社概要"
+    url = "/ja/about/"
+    weight = 2
+
+  [[languages.ja.menu.main]]
+    identifier = "services-ja"
+    name = "サービス"
+    url = "/ja/services/"
+    weight = 3
+
+  [[languages.ja.menu.main]]
+    identifier = "lab-ja"
+    name = "ラボ"
+    url = "/ja/lab/"
+    weight = 4
+
+  [[languages.ja.menu.main]]
+    identifier = "contact-ja"
+    name = "お問い合わせ"
+    url = "/ja/contact/"
+    weight = 5
+
 [params]
   env = "production"
+  mainSections = ["posts"]
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true

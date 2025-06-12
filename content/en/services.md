@@ -1,6 +1,7 @@
 ---
 title: "Services"
 description: "Our Services"
+url: "/services/"
 ---
 
 We offer a range of services including:

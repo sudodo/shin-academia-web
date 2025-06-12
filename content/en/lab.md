@@ -1,6 +1,7 @@
 ---
 title: "Lab"
 description: "Research and Innovation Lab"
+url: "/lab/"
 ---
 
 Welcome to the Shin-academia Lab.
