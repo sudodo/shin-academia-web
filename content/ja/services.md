@@ -1,4 +1,5 @@
 ---
+lang: ja
 title: "サービス"
 description: "提供サービス"
 url: "/ja/services/"

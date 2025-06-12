@@ -1,4 +1,5 @@
 ---
+lang: ja
 title: "ラボ"
 description: "研究・イノベーションラボ"
 url: "/ja/lab/"

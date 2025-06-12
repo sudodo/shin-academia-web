@@ -1,4 +1,5 @@
 ---
+lang: ja
 title: "シン・アカデミアへようこそ"
 description: "アカデミアとテクノロジーの革新"
 layout: "home"
