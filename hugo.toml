@@ -51,6 +51,11 @@ theme = 'PaperMod'
     url = "/ja/members/"
     weight = 5
   [[languages.ja.menu.main]]
+    identifier = "blog-ja"
+    name = "ブログ"
+    url = "/ja/posts/"
+    weight = 5.5
+  [[languages.ja.menu.main]]
     identifier = "contact-ja"
     name = "お問い合わせ"
     url = "/ja/contact/"
@@ -82,6 +87,11 @@ theme = 'PaperMod'
     name = "Members"
     url = "/en/members/"
     weight = 5
+  [[languages.en.menu.main]]
+    identifier = "blog-en"
+    name = "Blog"
+    url = "/en/posts/"
+    weight = 5.5
   [[languages.en.menu.main]]
     identifier = "contact"
     name = "Contact"
