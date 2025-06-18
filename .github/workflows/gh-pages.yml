@@ -3,7 +3,7 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main  # メインブランチ名が異なる場合は修正
+      - master # メインブランチ名が異なる場合は修正
 
 jobs:
   deploy:
