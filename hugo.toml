@@ -84,7 +84,7 @@ theme = 'PaperMod'
 
   [params.footer]
     text = "当サイトはソーシャルメディアでの発信を行っておりません。"
-  mainSections = ["posts"]
+  # mainSections = ["posts"]
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
