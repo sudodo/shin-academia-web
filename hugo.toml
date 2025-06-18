@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://sudodo.github.io/shin-academia-web/'
 defaultContentLanguage = 'en'
 title = 'Shin-academia (シン・アカデミア）'
 theme = 'PaperMod'
@@ -88,6 +88,7 @@ theme = 'PaperMod'
 
 [params]
   env = "production"
+  robotsNoIndex = true
 
   [params.footer]
     text = "当サイトはソーシャルメディアでの発信を行っておりません。"
