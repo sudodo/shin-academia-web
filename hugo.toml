@@ -1,5 +1,5 @@
 baseURL = 'https://sudodo.github.io/shin-academia-web/'
-defaultContentLanguage = 'en'
+defaultContentLanguage = 'ja'
 title = 'Shin-academia (シン・アカデミア）'
 theme = 'PaperMod'
 
@@ -8,7 +8,7 @@ theme = 'PaperMod'
     languageName = 'English'
     languageCode = 'en'
     languageAltTitle = 'En'
-    weight = 1
+    weight = 2
     title = 'Shin-academia'
 
     [languages.en.params.footer]
@@ -17,7 +17,7 @@ theme = 'PaperMod'
     languageName = '日本語'
     languageCode = 'ja'
     languageAltTitle = 'Ja'
-    weight = 2
+    weight = 1
     title = 'シン・アカデミア'
 
     [languages.ja.params.homeInfoParams]
@@ -26,64 +26,56 @@ theme = 'PaperMod'
 
 [menu]
   [[menu.main]]
-    identifier = "home-en"
-    name = "Home"
+    identifier = "home-ja"
+    name = "ホーム"
     url = "/"
     weight = 1
-
   [[menu.main]]
-    identifier = "about"
-    name = "About"
+    identifier = "about-ja"
+    name = "概要"
     url = "/about/"
     weight = 2
-
   [[menu.main]]
-    identifier = "services"
-    name = "Services"
+    identifier = "services-ja"
+    name = "サービス"
     url = "/services/"
     weight = 3
-
   [[menu.main]]
-    identifier = "lab"
-    name = "Lab"
+    identifier = "lab-ja"
+    name = "ラボ"
     url = "/lab/"
     weight = 4
-
   [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
+    identifier = "contact-ja"
+    name = "お問い合わせ"
     url = "/contact/"
     weight = 5
 
-[languages.ja.menu]
-  [[languages.ja.menu.main]]
-    identifier = "home-ja"
-    name = "ホーム"
-    url = "/ja/"
+[languages.en.menu]
+  [[languages.en.menu.main]]
+    identifier = "home-en"
+    name = "Home"
+    url = "/en/"
     weight = 1
-
-  [[languages.ja.menu.main]]
-    identifier = "about-ja"
-    name = "概要"
-    url = "/ja/about/"
+  [[languages.en.menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/en/about/"
     weight = 2
-
-  [[languages.ja.menu.main]]
-    identifier = "services-ja"
-    name = "サービス"
-    url = "/ja/services/"
+  [[languages.en.menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/en/services/"
     weight = 3
-
-  [[languages.ja.menu.main]]
-    identifier = "lab-ja"
-    name = "ラボ"
-    url = "/ja/lab/"
+  [[languages.en.menu.main]]
+    identifier = "lab"
+    name = "Lab"
+    url = "/en/lab/"
     weight = 4
-
-  [[languages.ja.menu.main]]
-    identifier = "contact-ja"
-    name = "お問い合わせ"
-    url = "/ja/contact/"
+  [[languages.en.menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/en/contact/"
     weight = 5
 
 [params]
@@ -109,5 +101,9 @@ theme = 'PaperMod'
   displayFullLangName = false
 
   [params.homeInfoParams]
-    Title = "Welcome to Shin-academia"
-    Content = "Innovating Academia and Technology. Explore our latest news, research, and services."
+    Title = "シン・アカデミアへようこそ"
+    Content = "アカデミアとテクノロジーの革新。最新ニュース、研究、サービスをご覧ください。"
+
+[languages.en.params.homeInfoParams]
+  Title = "Welcome to Shin-academia"
+  Content = "Innovating Academia and Technology. Explore our latest news, research, and services."
