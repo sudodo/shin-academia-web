@@ -46,10 +46,15 @@ theme = 'PaperMod'
     url = "/ja/lab/"
     weight = 4
   [[languages.ja.menu.main]]
+    identifier = "members-ja"
+    name = "メンバー"
+    url = "/ja/members/"
+    weight = 5
+  [[languages.ja.menu.main]]
     identifier = "contact-ja"
     name = "お問い合わせ"
     url = "/ja/contact/"
-    weight = 5
+    weight = 6
 
 [languages.en.menu]
   [[languages.en.menu.main]]
@@ -73,10 +78,15 @@ theme = 'PaperMod'
     url = "/en/lab/"
     weight = 4
   [[languages.en.menu.main]]
+    identifier = "members"
+    name = "Members"
+    url = "/en/members/"
+    weight = 5
+  [[languages.en.menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/en/contact/"
-    weight = 5
+    weight = 6
 
 [params]
   defaultContentLanguageInSubdir = true

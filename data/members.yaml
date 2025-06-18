@@ -1,0 +1,15 @@
+- name: 須藤明人
+  description: 情報処理によって生じる物理現象として生命を理解することに興味。これまでの教育・研究・実務の経歴は、物理学の学部教育、機械学習による音声データ圧縮、追加学習を特徴とする機械学習モデル、位置データを用いた人流の推定、創造性を発揮するAI、大規模情報システム開発、経営コンサルティング、起業と事業売却。
+  image: ""
+  email: "akihito.s.gm@gmail.com"
+  homepage: "https://sites.google.com/site/drakihitosudo/home"
+- name: ダミー花子
+  description: 物理に興味
+  image: ""
+  email: ""
+  homepage: ""
+- name: ダミー智子
+  description: 哲学に興味
+  image: ""
+  email: ""
+  homepage: ""

@@ -1,0 +1,103 @@
+{{ define "main" }}
+<main class="members-list">
+  <h1>{{ .Title }}</h1>
+  <p>{{ .Content }}</p>
+  <div class="members-cards">
+    {{ range .Site.Data.members }}
+      <div class="member-card">
+        <div class="member-photo">
+          {{ if .image }}
+            <img src="{{ .image | relURL }}" alt="{{ .name }}">
+          {{ else }}
+            <img src="{{ "images/placeholder.png" | relURL }}" alt="No photo">
+          {{ end }}
+        </div>
+        <div class="member-info">
+          <h2>{{ .name }}</h2>
+          <p>{{ .description }}</p>
+          {{ if .email }}
+            <p>メール: <a href="mailto:{{ .email }}">{{ .email }}</a></p>
+          {{ end }}
+          {{ if .homepage }}
+            <p>ホームページ: <a href="{{ .homepage }}" target="_blank" rel="noopener">{{ .homepage }}</a></p>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</main>
+<style>
+.members-list {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.members-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.member-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  gap: 2rem;
+  transition: box-shadow 0.2s;
+}
+.member-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+.member-photo {
+  flex: 0 0 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.member-photo img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  background: #f5f5f5;
+  display: block;
+}
+.member-info {
+  flex: 1 1 0;
+  min-width: 0;
+}
+.member-info h2 {
+  margin: 0.5rem 0 0.2rem 0;
+  font-size: 1.3rem;
+}
+.member-info p {
+  margin: 0.2rem 0;
+  font-size: 1rem;
+  word-break: break-all;
+}
+
+/* モバイル対応: 画面幅600px以下で縦積み */
+@media (max-width: 600px) {
+  .member-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .member-photo {
+    margin-bottom: 0.5rem;
+  }
+  .member-info h2 {
+    font-size: 1.1rem;
+  }
+}
+</style>
+{{ end }}
