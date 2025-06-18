@@ -64,7 +64,7 @@ theme = 'PaperMod'
 
   [[languages.ja.menu.main]]
     identifier = "about-ja"
-    name = "会社概要"
+    name = "概要"
     url = "/ja/about/"
     weight = 2
 
