@@ -24,31 +24,31 @@ theme = 'PaperMod'
       Title = "シン・アカデミアへようこそ"
       Content = "アカデミアとテクノロジーの革新。最新ニュース、研究、サービスをご覧ください。"
 
-[menu]
-  [[menu.main]]
+[languages.ja.menu]
+  [[languages.ja.menu.main]]
     identifier = "home-ja"
     name = "ホーム"
-    url = "/"
+    url = "/ja/"
     weight = 1
-  [[menu.main]]
+  [[languages.ja.menu.main]]
     identifier = "about-ja"
     name = "概要"
-    url = "/about/"
+    url = "/ja/about/"
     weight = 2
-  [[menu.main]]
+  [[languages.ja.menu.main]]
     identifier = "services-ja"
     name = "サービス"
-    url = "/services/"
+    url = "/ja/services/"
     weight = 3
-  [[menu.main]]
+  [[languages.ja.menu.main]]
     identifier = "lab-ja"
     name = "ラボ"
-    url = "/lab/"
+    url = "/ja/lab/"
     weight = 4
-  [[menu.main]]
+  [[languages.ja.menu.main]]
     identifier = "contact-ja"
     name = "お問い合わせ"
-    url = "/contact/"
+    url = "/ja/contact/"
     weight = 5
 
 [languages.en.menu]
@@ -79,6 +79,7 @@ theme = 'PaperMod'
     weight = 5
 
 [params]
+  defaultContentLanguageInSubdir = true
   env = "production"
   robotsNoIndex = true
 
