@@ -10,12 +10,19 @@ theme = 'PaperMod'
     languageAltTitle = 'En'
     weight = 1
     title = 'Shin-academia'
+
+    [languages.en.params.footer]
+      text = "We do not publish on social media."
   [languages.ja]
     languageName = '日本語'
     languageCode = 'ja'
     languageAltTitle = 'Ja'
     weight = 2
     title = 'シン・アカデミア'
+
+    [languages.ja.params.homeInfoParams]
+      Title = "シン・アカデミアへようこそ"
+      Content = "アカデミアとテクノロジーの革新。最新ニュース、研究、サービスをご覧ください。"
 
 [menu]
   [[menu.main]]
@@ -81,9 +88,12 @@ theme = 'PaperMod'
 
 [params]
   env = "production"
+
+  [params.footer]
+    text = "当サイトはソーシャルメディアでの発信を行っておりません。"
   mainSections = ["posts"]
   ShowReadingTime = true
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
@@ -96,3 +106,7 @@ theme = 'PaperMod'
   defaultTheme = "auto"
   math = true
   displayFullLangName = false
+
+  [params.homeInfoParams]
+    Title = "Welcome to Shin-academia"
+    Content = "Innovating Academia and Technology. Explore our latest news, research, and services."
