@@ -134,6 +134,25 @@ hugo server -D
 
 ---
 
+## ブログ記事の新規作成方法
+
+このプロジェクトでは、`archetypes/blog.md` を雛形として日本語ブログ記事を作成できます。
+
+### 新規記事の作成手順
+
+1. 以下のコマンドを実行してください（`記事ファイル名.md` は任意のファイル名に変更してください）。
+
+```sh
+hugo new ja/posts/記事ファイル名.md --kind blog
+```
+
+2. `content/ja/posts/記事ファイル名.md` が作成されます。内容やタイトルを編集してご利用ください。
+
+- 雛形は `archetypes/blog.md` です。
+- `--kind blog` を省略すると `archetypes/default.md` が使われます。
+
+---
+
 ## ライセンス
 
 本リポジトリはMITライセンスです。
