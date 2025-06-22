@@ -16,8 +16,3 @@ If you have any questions or inquiries, please feel free to contact us using the
   <textarea id="message" name="message" rows="5" required style="width:100%;max-width:400px;"></textarea><br><br>
   <button type="submit">Submit</button>
 </form>
-
----
-
-You can also contact us by email:
-<a href="mailto:akihito.s.gm@gmail.com">akihito.s.gm@gmail.com</a>
