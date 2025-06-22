@@ -18,6 +18,9 @@
           {{ if .email }}
             <p>メール: <a href="mailto:{{ .email }}">{{ .email }}</a></p>
           {{ end }}
+          {{ if .contact_url }}
+            <p>問合せ先: <a href="{{ .contact_url }}" target="_blank" rel="noopener">{{ .contact_url }}</a></p>
+          {{ end }}
           {{ if .homepage }}
             <p>ホームページ: <a href="{{ .homepage }}" target="_blank" rel="noopener">{{ .homepage }}</a></p>
           {{ end }}
