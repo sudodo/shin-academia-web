@@ -1,5 +1,5 @@
 ---
-title: "組織の概要"
+title: "概要"
 description: "シン・アカデミアについて"
 slug: "about-ja"
 url: "/ja/about/"
