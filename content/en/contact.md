@@ -1,11 +1,23 @@
 ---
+lang: en
 title: "Contact"
 description: "Contact Shin-academia"
-url: "/contact/"
+url: "/en/contact/"
 ---
 
-Get in touch with us:
+If you have any questions or inquiries, please feel free to contact us using the form below.
 
-- Email: akihito.s.gm@gmail.com
+<form action="https://formspree.io/f/xdkzlqoz" method="POST">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required style="width:100%;max-width:400px;"><br><br>
+  <label for="email">Email Address:</label><br>
+  <input type="email" id="email" name="email" required style="width:100%;max-width:400px;"><br><br>
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="5" required style="width:100%;max-width:400px;"></textarea><br><br>
+  <button type="submit">Submit</button>
+</form>
 
-We look forward to hearing from you!
+---
+
+You can also contact us by email:
+<a href="mailto:akihito.s.gm@gmail.com">akihito.s.gm@gmail.com</a>
