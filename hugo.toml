@@ -11,6 +11,8 @@ theme = 'PaperMod'
     weight = 2
     title = 'Shin-academia'
 
+    [languages.en.params.label]
+      text = "Shin-academia"
     [languages.en.params.footer]
       text = "We do not publish on social media."
   [languages.ja]
@@ -20,6 +22,8 @@ theme = 'PaperMod'
     weight = 1
     title = 'シン・アカデミア'
 
+    [languages.ja.params.label]
+      text = "シン・アカデミア"
     [languages.ja.params.homeInfoParams]
       Title = "シン・アカデミアへようこそ"
       Content = "アカデミアとテクノロジーの革新。最新ニュース、研究、サービスをご覧ください。"
@@ -65,37 +69,37 @@ theme = 'PaperMod'
   [[languages.en.menu.main]]
     identifier = "home-en"
     name = "Home"
-    url = "/en/"
+    url = "/"
     weight = 1
   [[languages.en.menu.main]]
     identifier = "about"
     name = "About"
-    url = "/en/about/"
+    url = "/about/"
     weight = 2
   [[languages.en.menu.main]]
     identifier = "services"
     name = "Services"
-    url = "/en/services/"
+    url = "/services/"
     weight = 3
   [[languages.en.menu.main]]
     identifier = "lab"
     name = "Lab"
-    url = "/en/lab/"
+    url = "/lab/"
     weight = 4
   [[languages.en.menu.main]]
     identifier = "members"
     name = "Members"
-    url = "/en/members/"
+    url = "/members/"
     weight = 5
   [[languages.en.menu.main]]
     identifier = "blog-en"
     name = "Blog"
-    url = "/en/posts/"
+    url = "/posts/"
     weight = 5.5
   [[languages.en.menu.main]]
     identifier = "contact"
     name = "Contact"
-    url = "/en/contact/"
+    url = "/contact/"
     weight = 6
 
 [params]
@@ -133,3 +137,6 @@ theme = 'PaperMod'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+relativeURLs = false
+canonifyURLs = true
