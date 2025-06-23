@@ -108,7 +108,7 @@ theme = 'PaperMod'
   robotsNoIndex = true
 
   [params.footer]
-    text = "当サイトはソーシャルメディアでの発信を行っておりません。"
+    text = "ソーシャルメディアでの発信は現在行なっておりません"
   # mainSections = ["posts"]
   ShowReadingTime = true
   ShowShareButtons = false
