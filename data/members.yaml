@@ -1,15 +1,21 @@
 - name: 須藤明人
-  description: 情報処理によって生じる物理現象として生命を理解することに興味。これまでの教育・研究・実務の経歴は、物理学の学部教育、機械学習による音声データ圧縮、追加学習を特徴とする機械学習モデル、位置データを用いた人流の推定、創造性を発揮するAI、大規模情報システム開発、経営コンサルティング、起業と事業売却。
+  description: 情報処理によって生じる物理現象として生命や知能を理解することに興味。これまでの教育・研究・実務の経歴は、物理学の学部教育、機械学習による音声データ圧縮、追加学習を特徴とする機械学習モデル、位置データを用いた人流の推定、創造性を発揮するAI、大規模情報システム開発、経営コンサルティング、創造的な人工知能の実用化のための起業と事業売却。
   image: ""
   homepage: "https://sites.google.com/site/drakihitosudo/home"
   contact_url: "https://sudodo.github.io/shin-academia-web/ja/contact/"
-- name: ダミー花子
-  description: 物理に興味
+- name: 永井万依子
+  description: 個人と組織の関係性、個人の特性と環境に関心。これまでの実践・探究の経歴は、キャリアカウンセリング2000件超の実施、研修設計・講師登壇、職業観の変化を促すプログラム開発、企業内キャリア支援体制の構築、働く親世代への支援、国家資格キャリアコンサルタントとしての活動、ライフキャリア領域での継続的な発信。
   image: ""
   email: ""
-  homepage: ""
-- name: ダミー智子
-  description: 哲学に興味
+  homepage: "https://nagamama-career.studio.site/#form"
+  contact_url: "https://nagamama-career.studio.site/"
+- name: 藤原直哉
+  description: "ネットワーク科学・非線形科学で社会・経済・地域を見る"
   image: ""
   email: ""
-  homepage: ""
+  homepage: "https://sites.google.com/site/nfnetz/our-lab-%E8%97%A4%E5%8E%9F%E7%A0%94%E7%A9%B6%E5%AE%A4"
+- name: 徳田慶太
+  description: "神経系の数理モデリング"
+  image: ""
+  email: ""
+  homepage: "https://sites.google.com/view/tokudakeita"
